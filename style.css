@@ -1,7 +1,7 @@
 .header {
     background-color: #1F2937;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 120px;
+    padding-left: 120px;
     padding-bottom: 180px;
     padding-top: 12px;
     display: flex;
@@ -15,15 +15,18 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
     
 }
 
-#rectangle{
-    width:200px;
-    height:100px;
-    background: grey;
+.image {
     color: white;
-    display: flex;
+    background-color: grey;
     
 }
 
@@ -51,7 +54,51 @@ ul {
     flex-direction: column;
 }
 
-#rectangle {
+
+
+.textrectangle {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
 }
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    color: white;
+}
+
+.awesome-text {
+    max-width: 400px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext {
+    max-width: 450px;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 12px;
+}
+
+.signup {
+    padding: 4px 18px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: bold;
+}
+
+.image {
+    background-color: grey;
+    color: white;
+    padding: 120px 150px;
+}
+
