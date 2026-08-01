@@ -185,3 +185,9 @@ ul {
     font-weight: lighter;
 }
 
+.footer{
+    background-color: #1F2937;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
