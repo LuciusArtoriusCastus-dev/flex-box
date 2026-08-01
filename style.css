@@ -151,3 +151,22 @@ ul {
     color: #1F2937;
     text-align: end;
 }
+
+.down1{
+    padding: 80px 140px;
+    
+}
+
+.blue {
+    background-color: #3882F6;
+    padding: 30px 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.signup2 {
+    align-self: flex-end;
+    margin-bottom: 8px;
+}
