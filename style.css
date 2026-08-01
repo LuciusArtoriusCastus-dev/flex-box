@@ -163,10 +163,25 @@ ul {
     color: white;
     display: flex;
     justify-content: space-between;
+    border-radius: 8px;
     
     
 }
 .signup2 {
     align-self: flex-end;
     margin-bottom: 8px;
+    padding: 4px 20px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: 1.5px solid white;
+    color: white;
+    font-weight:500;
 }
+
+.action {
+    font-weight: bold;
+}
+.signuptext{
+    font-weight: lighter;
+}
+
